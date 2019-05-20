@@ -31,6 +31,9 @@ fi
 read -p "Load /dist to server (y/n)?" choice
 case "$choice" in 
   y|Y )
+#user_name - remote machine username;
+#host_name - remote machine hostname (eg. ip address);
+#target_path - path to target folder on your remote machine;
 	scp -r dist/* user_name@host_name:target_path || echo "connection failed";;
   n|N ) echo "done";;
   * ) echo "invalid";;
