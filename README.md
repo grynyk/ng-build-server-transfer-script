@@ -1,9 +1,9 @@
 # ng-build-server-transfer-script
-Bash script which performs compiling an Angular app into an output directory named dist/ and uploading it into remote machine.
+ng-bst - bash script which performs compiling an Angular app into an output directory named dist/ and uploading it into remote machine.
 
 # USAGE TUTORIAL
 - Place "ng-bst.sh" script into angular project directory;
-- Edit "ng-bst.sh" script and edit line #34 with your data:
+- Edit "ng-bst.sh" script on line #37 with your data:
 ```
 . . .
 #user_name - remote machine username;
